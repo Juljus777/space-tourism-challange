@@ -291,6 +291,7 @@ nav[aria-label="destination"]{
     padding-bottom:8px;
     background:none;
     border:none;
+    cursor:pointer;
 }
 .destination-menu-item > p {
     margin:0;
@@ -346,6 +347,7 @@ nav[aria-label="crew"]{
     border:none;
     background:#979797;
     opacity:.17;
+    cursor:pointer;
 }
 .circle-button:hover{
     opacity:.5;
@@ -423,6 +425,7 @@ nav[aria-label="technology"]{
     font-size:16px;
     color:white;
     background:transparent;
+    cursor:pointer;
 }
 .bubble-button:hover{
     border: 1px solid white;
@@ -693,6 +696,9 @@ nav[aria-label="technology"]{
     }
     .destination-info-section{
         text-align: left;
+    }
+    .destination-menu-item{
+        padding-bottom:12px;
     }
     /*crew page*/
     .crew-page-container{
